@@ -1,0 +1,38 @@
+  CONTACT [-0.204 -0.046  0.409  0.048 -0.25  -0.571 -0.524]  hand [ 0.24  -0.065  0.13 ]  gap 8.0 mm
+  OPEN    [-0.181 -0.147  0.265  0.432 -0.047 -0.631 -0.397]  hand [ 0.26 -0.13  0.05]  gap 151.0 mm
+  stroke: gap min 8.0 mm monotone=True  torso gap >= 30.0 mm
+  solved + froze trajectories/NASHMI_DAHIYA_SAHJA_V1.json in 0.5s
+=== NASHMI_DAHIYA_SAHJA_V1: 12 claps @ 60/min, duration 16.30s ===
+  kinematic plan: {'contact': [-0.2042410954260003, -0.04578598804088417, 0.4086704081083766, 0.048305113547824186, -0.2503864080971994, -0.5708009250794475, -0.5239884465959893], 'open': [-0.18132063887295363, -0.14679201207312925, 0.26509054436993507, 0.43221783564726546, -0.04660888973146342, -0.6311506516074464, -0.3970325038307189], 'contact_hand': [0.23999932975843286, -0.06533422083016185, 0.1300649179153766], 'open_hand': [0.2597390117414997, -0.12988432392598442, 0.0503726221131807], 'kin_gap_contact_mm': 8.016914648263636, 'kin_gap_open_mm': 150.955353936745, 'kin_gap_min_mm': 8.016914648263636, 'kin_gap_monotone': True, 'kin_torso_gap_min_mm': 29.999018336193117}
+ run1: fell=False tilt=2.32d minLoad=50.0% lift=0.0% supp=73.5mm f=0.195 sat=False selfcol=0.00% lim=0.157(left_ankle_roll_joint) pk_f=left_shoulder_pitch_joint selfpairs=[] vmax=3.77
+      claps=12 gap@clap 5.6..5.7mm (mean 5.7) open_sep=272mm timing lag=-0ms closing=1.21m/s hand v=0.95m/s arm-torso>=27.6mm pulse=7.4mm  dq: sh=1.22 el=3.77 wr=1.44 kn=0.24
+ run2: fell=False tilt=2.32d minLoad=50.0% lift=0.0% supp=73.5mm f=0.195 sat=False selfcol=0.00% lim=0.157(left_ankle_roll_joint) pk_f=left_shoulder_pitch_joint selfpairs=[] vmax=3.77
+      claps=12 gap@clap 5.6..5.7mm (mean 5.7) open_sep=272mm timing lag=-0ms closing=1.21m/s hand v=0.95m/s arm-torso>=27.6mm pulse=7.4mm  dq: sh=1.22 el=3.77 wr=1.44 kn=0.24
+ run3: fell=False tilt=2.32d minLoad=50.0% lift=0.0% supp=73.5mm f=0.195 sat=False selfcol=0.00% lim=0.157(left_ankle_roll_joint) pk_f=left_shoulder_pitch_joint selfpairs=[] vmax=3.77
+      claps=12 gap@clap 5.6..5.7mm (mean 5.7) open_sep=272mm timing lag=-0ms closing=1.21m/s hand v=0.95m/s arm-torso>=27.6mm pulse=7.4mm  dq: sh=1.22 el=3.77 wr=1.44 kn=0.24
+  reproducibility: max tilt spread across runs = 0.000e+00 deg
+  wrote experiments/logs/nashmi_dahiya_sahja_v1_metrics.json
+=== perturbation: 100 ms torso push mid-phrase (open-loop, no balance controller) ===
+  fwd +x 40N   fell=False tilt=4.55d minLoad=49.9% lift=0.0% selfcol=0.00%
+  back -x 40N  fell=False tilt=6.26d minLoad=49.6% lift=0.0% selfcol=0.00%
+  left +y 40N  fell=False tilt=2.32d minLoad=32.5% lift=0.0% selfcol=0.00%
+  right -y 40N fell=False tilt=2.32d minLoad=32.5% lift=0.0% selfcol=0.00%
+  CONTACT [-0.195 -0.045  0.389  0.042 -0.243 -0.578 -0.501]  hand [ 0.24  -0.069  0.13 ]  gap 16.0 mm
+  OPEN    [-0.257 -0.126  0.186  0.75   0.021 -0.555 -0.282]  hand [ 0.269 -0.15   0.001]  gap 198.1 mm
+  stroke: gap min 16.0 mm monotone=True  torso gap >= 30.0 mm
+  solved + froze trajectories/NASHMI_DAHIYA_SAHJA_RAZA_V1.json in 0.4s
+=== NASHMI_DAHIYA_SAHJA_RAZA_V1: 16 claps @ 140/min, duration 11.16s ===
+  kinematic plan: {'contact': [-0.19491475888273813, -0.04484932990410856, 0.3893455790039886, 0.04243312707273153, -0.2426568418485839, -0.5782409879534423, -0.5012421059463819], 'open': [-0.25655240683082137, -0.1261474104195412, 0.18566354393560064, 0.7498350160099435, 0.020899644034196894, -0.5553614070618105, -0.28244851822985084], 'contact_hand': [0.2399988129104348, -0.06920018767705144, 0.13006470370685602], 'open_hand': [0.2693624632854207, -0.14983237933463311, 0.000876441691530304], 'kin_gap_contact_mm': 16.016686421703078, 'kin_gap_open_mm': 198.11048536483122, 'kin_gap_min_mm': 16.016686421703078, 'kin_gap_monotone': True, 'kin_torso_gap_min_mm': 29.999043064467408}
+ run1: fell=False tilt=5.19d minLoad=46.7% lift=0.0% supp=26.3mm f=0.363 sat=False selfcol=0.00% lim=0.157(left_ankle_roll_joint) pk_f=waist_pitch_joint selfpairs=[] vmax=9.79
+      claps=16 gap@clap 5.0..6.6mm (mean 5.1) open_sep=322mm timing lag=-2ms closing=2.31m/s hand v=1.90m/s arm-torso>=27.4mm pulse=14.1mm  dq: sh=2.16 el=9.79 wr=2.27 kn=0.97
+ run2: fell=False tilt=5.19d minLoad=46.7% lift=0.0% supp=26.3mm f=0.363 sat=False selfcol=0.00% lim=0.157(left_ankle_roll_joint) pk_f=waist_pitch_joint selfpairs=[] vmax=9.79
+      claps=16 gap@clap 5.0..6.6mm (mean 5.1) open_sep=322mm timing lag=-2ms closing=2.31m/s hand v=1.90m/s arm-torso>=27.4mm pulse=14.1mm  dq: sh=2.16 el=9.79 wr=2.27 kn=0.97
+ run3: fell=False tilt=5.19d minLoad=46.7% lift=0.0% supp=26.3mm f=0.363 sat=False selfcol=0.00% lim=0.157(left_ankle_roll_joint) pk_f=waist_pitch_joint selfpairs=[] vmax=9.79
+      claps=16 gap@clap 5.0..6.6mm (mean 5.1) open_sep=322mm timing lag=-2ms closing=2.31m/s hand v=1.90m/s arm-torso>=27.4mm pulse=14.1mm  dq: sh=2.16 el=9.79 wr=2.27 kn=0.97
+  reproducibility: max tilt spread across runs = 0.000e+00 deg
+  wrote experiments/logs/nashmi_dahiya_sahja_raza_v1_metrics.json
+=== perturbation: 100 ms torso push mid-phrase (open-loop, no balance controller) ===
+  fwd +x 40N   fell=False tilt=7.53d minLoad=0.0% lift=0.1% selfcol=0.00%
+  back -x 40N  fell=False tilt=9.81d minLoad=0.0% lift=0.0% selfcol=0.00%
+  left +y 40N  fell=False tilt=5.19d minLoad=32.8% lift=0.0% selfcol=0.00%
+  right -y 40N fell=False tilt=5.19d minLoad=32.9% lift=0.0% selfcol=0.00%
